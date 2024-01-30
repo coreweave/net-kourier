@@ -9,7 +9,7 @@ stages:
   - build
 
 variables:
-  GOLANG_VERSION: "1.20.7"
+  GOLANG_VERSION: "1.21.6"
   GOLANG_IMAGE_SUB_TAG: bullseye
   GOLANG_IMAGE: golang:$GOLANG_VERSION-$GOLANG_IMAGE_SUB_TAG
   NODE_VERSION: "18.17.1"
